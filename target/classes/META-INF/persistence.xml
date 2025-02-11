@@ -1,0 +1,12 @@
+<persistence xmlns="http://jakarta.ee/xml/ns/persistence"
+    version="3.1">
+    <persistence-unit name="proyectoejbP" transaction-type="JTA">
+        <jta-data-source>proyectoejb</jta-data-source>
+        <properties>
+            <property name="jakarta.persistence.jdbc.driver" value="com.microsoft.sqlserver.jdbc.SQLServerDriver"/>
+            <property name="jakarta.persistence.jdbc.url" value="jdbc:sqlserver://localhost:1433;databaseName=proyectoejb;encrypt=false"/>
+            <property name="jakarta.persistence.jdbc.user" value="sa"/>
+            <property name="jakarta.persistence.jdbc.password" value="123456"/>
+        </properties>
+    </persistence-unit>
+</persistence>

@@ -1,4 +1,4 @@
-# Proyecto EJB P
+# Proyecto EJB
 
 Este proyecto está basado en Jakarta EE y se despliega en el servidor de aplicaciones Payara, utilizando SQL Server como base de datos. El proyecto usa JPA para la persistencia y se gestiona mediante comandos en terminal.
 

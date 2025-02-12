@@ -84,6 +84,4 @@ Verifica que la aplicación se encuentre en estado "Running" a través de la con
 
 - **Error en la conexión a la base de datos:** Comprueba que los parámetros en `persistence.xml` sean correctos y que el pool de conexiones en Payara esté configurado con el mismo nombre (`proyectoejb`).
 - **Despliegue fallido:** Revisa los logs del servidor (`server.log`) para identificar posibles errores en la aplicación.
-
-Este README proporciona los pasos necesarios para configurar, compilar, desplegar y acceder a la aplicación. Si encuentras algún problema, revisa cada sección para asegurarte de que todos los parámetros y comandos sean correctos.
-
+  

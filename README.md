@@ -80,6 +80,18 @@ http://localhost:8081/proyectoejbP-1.0-SNAPSHOT
 
 Verifica que la aplicación se encuentre en estado "Running" a través de la consola de administración de Payara en `http://localhost:4848`.
 
+Recordar si esta ocupado el puerto solicitado en este caso el 8081 puedes verificar y elimminar con este comando desde la terminal
+
+```bash
+netstat  -ano | findstr 8081
+```
+
+Para eliminar el puerto se ocupa 
+
+```bash
+taskkill /F /PID  1234
+```
+
 ## Problemas Comunes
 
 - **Error en la conexión a la base de datos:** Comprueba que los parámetros en `persistence.xml` sean correctos y que el pool de conexiones en Payara esté configurado con el mismo nombre (`proyectoejb`).

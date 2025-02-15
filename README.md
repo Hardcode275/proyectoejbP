@@ -75,7 +75,7 @@ asadmin deploy --force true proyectoejbP-1.0-SNAPSHOT.war
 Una vez desplegada, accede a la aplicación en la siguiente URL:
 
 ```bash
-http://localhost:8080/proyectoejbP-1.0-SNAPSHOT
+http://localhost:8081/proyectoejbP-1.0-SNAPSHOT
 ```
 
 Verifica que la aplicación se encuentre en estado "Running" a través de la consola de administración de Payara en `http://localhost:4848`.

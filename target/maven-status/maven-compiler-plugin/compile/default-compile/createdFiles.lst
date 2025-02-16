@@ -1,5 +1,9 @@
-com\mycompany\proyectoejbp\controlador\ProductoServlet.class
+com\mycompany\proyectoejbp\controlador\IngresarProductoServlet.class
 com\mycompany\proyectoejbp\JakartaRestConfiguration.class
-com\mycompany\proyectoejbp\modelo\producto.class
-com\mycompany\proyectoejbp\resources\JakartaEE10Resource.class
+com\mycompany\proyectoejbp\controlador\BuscarProductoServlet.class
+com\mycompany\proyectoejbp\controlador\EliminarProductoServlet.class
+com\mycompany\proyectoejbp\modelo\Producto.class
 com\mycompany\proyectoejbp\negocio\ProductoFascade.class
+com\mycompany\proyectoejbp\controlador\ProductoServlet.class
+com\mycompany\proyectoejbp\resources\JakartaEE10Resource.class
+com\mycompany\proyectoejbp\controlador\EditarProductoServlet.class

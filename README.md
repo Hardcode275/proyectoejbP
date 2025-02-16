@@ -80,7 +80,7 @@ http://localhost:8081/proyectoejbP-1.0-SNAPSHOT
 
 Verifica que la aplicación se encuentre en estado "Running" a través de la consola de administración de Payara en `http://localhost:4848`.
 
-Recordar si esta ocupado el puerto solicitado en este caso el 8081 puedes verificar y elimminar con este comando desde la terminal
+Recordar si esta ocupado el puerto solicitado en este caso el 8081 puedes verificar y eliminar con este comando desde la terminal
 
 ```bash
 netstat  -ano | findstr 8081
